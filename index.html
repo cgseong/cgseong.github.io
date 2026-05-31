@@ -1,4 +1,82 @@
 ---
-layout: home
-author_profile: true
+layout: splash
+title: "CG Seong Portfolio"
+header:
+  overlay_color: "#1a1d24"
+  overlay_filter: "0.5"
+  actions:
+    - label: "GitHub Profile"
+      url: "https://github.com/cgseong"
+    - label: "Projects"
+      url: "/portfolio/"
+excerpt: "Python & AI Developer - GitHub 프로젝트 포트폴리오"
+feature_row:
+  - title: "Lottery"
+    excerpt: "Python 기반 로또 번호 분석 및 예측 프로젝트"
+    url: "/portfolio/lottery/"
+    btn_label: "자세히 보기"
+    btn_class: "btn--primary"
+  - title: "PNU-EMP"
+    excerpt: "TypeScript 기반 부산대 EMP 시스템 (Vercel 배포)"
+    url: "/portfolio/pnu-emp/"
+    btn_label: "자세히 보기"
+    btn_class: "btn--primary"
+  - title: "AIpython"
+    excerpt: "AI/머신러닝 Python 학습 노트북 모음 (8 Stars)"
+    url: "/portfolio/aipython/"
+    btn_label: "자세히 보기"
+    btn_class: "btn--primary"
+feature_row2:
+  - title: "Job Calendar"
+    excerpt: "Python 기반 취업 일정 관리 캘린더 애플리케이션"
+    url: "/portfolio/job-calendar/"
+    btn_label: "자세히 보기"
+    btn_class: "btn--info"
+  - title: "PNU-PCC"
+    excerpt: "Python 기반 부산대 PCC 프로젝트"
+    url: "/portfolio/pnu-pcc/"
+    btn_label: "자세히 보기"
+    btn_class: "btn--info"
+  - title: "HelloJava"
+    excerpt: "Java 교육 자료 및 실습 코드 모음"
+    url: "/portfolio/hellojava/"
+    btn_label: "자세히 보기"
+    btn_class: "btn--info"
 ---
+
+<div class="notice--info" style="text-align: center; font-size: 1.1em; margin-top: 2em;">
+  <h2>About Me</h2>
+  <p>안녕하세요! Python과 AI 개발에 관심이 많은 개발자 <strong>Chang-Gyu Seong</strong>입니다.</p>
+  <p>이 포트폴리오에서 저의 GitHub 프로젝트들을 소개합니다.</p>
+</div>
+
+<h2 class="archive__subtitle" style="margin-top: 2em;">Featured Projects</h2>
+
+{% include feature_row %}
+
+<h2 class="archive__subtitle">More Projects</h2>
+
+{% include feature_row id="feature_row2" %}
+
+<div style="text-align: center; margin-top: 3em;">
+  <h2>Tech Stack</h2>
+  <p>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+    <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+    <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
+    <img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberry-pi&logoColor=white" alt="Raspberry Pi">
+    <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel">
+    <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=github-pages&logoColor=white" alt="GitHub Pages">
+  </p>
+</div>
+
+<div style="text-align: center; margin-top: 2em;">
+  <h2>GitHub Stats</h2>
+  <p>
+    <img src="https://github-readme-stats.vercel.app/api?username=cgseong&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats">
+  </p>
+  <p>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cgseong&layout=compact&theme=dark&hide_border=true" alt="Top Languages">
+  </p>
+</div>
